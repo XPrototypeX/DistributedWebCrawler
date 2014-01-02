@@ -6,7 +6,7 @@ import serializer.Url;
 
 import com.hazelcast.core.HazelcastInstance;
 @Deprecated 
-//See Indexer
+//See Indexer   
 public class DistributedUrlQueue {
 
 	private final HazelcastInstance hazelInstance;

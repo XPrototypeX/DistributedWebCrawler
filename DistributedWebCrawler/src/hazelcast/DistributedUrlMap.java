@@ -8,6 +8,7 @@ import serializer.Url;
 
 import com.hazelcast.core.HazelcastInstance;
 @Deprecated
+//
 public class DistributedUrlMap {
 
 	private final HazelcastInstance hazelInstance;
