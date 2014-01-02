@@ -86,6 +86,8 @@ public class ClusterManager implements ResultHandler<CrawlerRecord>, Runnable {
 		// increment numbers of clusters
 		this.numberClusters.incrementAndGet();
 
+		
+		//Adds the start URL. As long as there is no client interface that should be okay 
 		indexer.addNewUrl(new Url(
 				"http://de.wikipedia.org/wiki/Sirimavo_Bandaranaike"));
 

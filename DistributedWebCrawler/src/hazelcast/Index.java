@@ -15,13 +15,13 @@ import Impl.UrlHandler;
 import com.hazelcast.core.HazelcastInstance;
 
 /**
- * Class that managed the urls. Means checks if the given url was already added
+ * Class that managed the urls. Means it checks if the given url was already added
  * or returns a new Url which needs to be parsed. The class also saves every
  * parsed URL. The key is the main url name For instance: The key for:
  * http://google.de/example/child will be http://google.de/
  * 
  * It doesnt save the site from which the given URL was parsed. However that
- * should be easy to implement
+ * should be easy to implement since that kind of information knows a CrawlerRecord
  * 
  * 
  * @author root

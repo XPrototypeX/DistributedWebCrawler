@@ -25,12 +25,9 @@ public class SimpleParser implements Parser {
 	/**
 	 * Simple parser. Parsed with the Framework : HTMLParser
 	 * 
-	 * Throws exceptions from time to time the returning result is Null then
+	 * Throws exceptions from time to time the returning result will be Null then
 	 * However a big TODO : there could be faster ways to archive this. THis is
-	 * just a simple implementation. Also the implementation isnt that good
-	 * however the implementation of HTMLParser doersnt allow me to make the
-	 * code look any better
-	 * 
+	 * just a simple implementation. 
 	 * 
 	 */
 
